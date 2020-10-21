@@ -1,0 +1,16 @@
+<h1>THE LIST OF DATA OF ALL THE MOVIES FETCHED!!</h1>
+
+<ul>
+    <% for(var i=0;i<results.length;i++){ %>
+        <li>
+            <h3>
+                <%=results[i].Title%>
+            </h3>
+            <li>
+                <%=results[i].Year%>
+            </li>
+        </li>
+        <% }; %>
+</ul>
+<br>
+<a href="/search_page">Want to search again</a>
